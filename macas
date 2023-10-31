@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<stdlib.h>
+#include <string.h>
+#include <locale.h>
+int main()
+{
+setlocale(LC_ALL,"portuguese");
+int quantidade;
+float valorUnitario;
+float precoFinal;
+}
+
+printf("Digite a quantidade de maçãs:");
+scanf("%d",&quantidade);
+if(quantidade<12);{
+valorUnitario=1.30;
+} else{
+valorUnitario=1;
+valorUnitario=quantidade<12?1.30:1.0;
+precoFinal=quantidade*valorUnitario;
+printf("Quantidade de maçãs:%2.f/n",quantidade);
+printf("Preço unitario:%2.f/n",valorUnitario);
+printf("Preço final:%2.f/nn,precoFinal);
+getchar();//pausa
+return 0;
+}
